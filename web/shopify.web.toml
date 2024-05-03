@@ -1,0 +1,6 @@
+roles = ["backend"]
+
+[commands]
+dev = "composer serve"
+build = "composer build"
+scopes = "read_products,write_products,read_content,write_content,write_price_rules,read_orders,write_orders,read_customers,write_customers"
